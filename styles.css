@@ -1,0 +1,77 @@
+html {
+    scroll-behavior: smooth; 
+  }
+  body {
+    display: flex; 
+    flex-direction: column; 
+    background: linear-gradient(5deg, yellow, green); 
+  
+  }
+  #nav-bar {
+    background-color: green; 
+    position: fixed; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    top: 0; 
+    left: 0; 
+    height: 30px; 
+    width: 100%; 
+  }
+  .nav-link {
+    border: 2px outset red;
+    box-shadow: 5px 10px; 
+    padding: 5px; 
+  }
+  a:visited {
+    color: blue; 
+  }
+  a:hover {
+    color: orange; 
+  }
+  a:active {
+    color: red; 
+  }
+  #header-img {
+    margin-top: 30px; 
+    padding-top: 35px; 
+  }
+  .info {
+    margin: auto;
+    text-align: center; 
+    width: 50%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  #video {
+    margin: auto;  
+    max-width:100%; 
+  }
+  #email {
+    margin: 10px; 
+  }
+  #submit {
+    cursor: pointer;
+    display: block; 
+    margin: auto;
+  
+  }
+  .section-decor::before {
+    background-image: url(https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodmanufacture.co.uk/headlines/business-news/organic-food-sales-on-the-rise/9183025-1-eng-GB/Organic-food-sales-on-the-rise_wrbm_large.jpg);  
+    display: block;  
+    background-size: auto auto; 
+    width: 700px; 
+    height: 30px;  
+    margin: auto;
+    margin-bottom: 50px; 
+    content: "";  
+  }
+  .section-decor {
+      padding-top: 5px; 
+  
+  }
+  @media (min-width: 600px) {
+    body {
+      background-color: lightblue;
+      text-align: center; 
+    }
+  }
